@@ -43,6 +43,7 @@ async function getData(url) {
         userImage.src = data.avatar;
         userName.innerHTML = `${data.first_name} ${data.last_name}`;
         userEmailId.href = `mailto:${data.email}`;
+        userEmailId.innerHTML=data.email;
     }
 }
 
