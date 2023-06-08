@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#user-image {
+    width: 100%;
+}
+main{background-color: rgba(128, 128, 128, 0.45);}
